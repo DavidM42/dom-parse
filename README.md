@@ -16,7 +16,7 @@ parseDom(markup);
 
 ### Return value
 
-`NodeList` containing Node structure of HTML parsed.
+`Document` containing Document of HTML parsed.
 
 ## Example
 
@@ -24,5 +24,4 @@ parseDom(markup);
 import parseDom from 'dom-parse';
 
 parseDom('Some <em>awesome</em> markup <img src="explosion.gif">');
-// returns [#text, <em>, #text, <img>]
 ```
