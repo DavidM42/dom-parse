@@ -7,12 +7,7 @@ const getParser = () => {
   return parser;
 };
 
-const wrapMarkup = (markup) =>
-  `<!DOCTYPE html>\n<html><body>${markup}</body></html>`;
-
 const parseDom = (markup) =>
-  getParser()
-    .parseFromString(wrapMarkup(markup), 'text/html')
-    .querySelector('body').childNodes;
+  getParser().parseFromString(html, "text/html");
 
 export default parseDom;
