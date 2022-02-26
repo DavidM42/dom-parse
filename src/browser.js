@@ -8,6 +8,6 @@ const getParser = () => {
 };
 
 const parseDom = (markup) =>
-  getParser().parseFromString(html, "text/html");
+  getParser().parseFromString(markup, "text/html");
 
 export default parseDom;
