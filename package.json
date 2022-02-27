@@ -40,7 +40,8 @@
   },
   "homepage": "https://github.com/jacobbuck/dom-parse",
   "dependencies": {
-    "jsdom": "^16.4.0"
+    "jsdom": "^16.4.0",
+    "canvas": "^2.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
