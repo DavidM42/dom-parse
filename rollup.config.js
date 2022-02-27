@@ -33,7 +33,14 @@ export default [
         sourcemap: true,
       },
     ],
-    external: ['jsdom', 'canvas'],
+    external: [
+      'canvas-prebuilt',
+      'canvas',
+      'jsdom/lib/jsdom/utils',
+      'jsdom/lib/jsdom/living/generated/utils',
+      'jsdom',
+      'xmldom',
+    ],
     plugins: [babel({ babelHelpers: 'bundled' })],
   },
 ];
