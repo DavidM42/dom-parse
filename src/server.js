@@ -1,4 +1,4 @@
-const JSDOM = window['jsdom'];
+import { JSDOM } from 'jsdom';
 
 const parseDom = (markup) => new JSDOM(markup).window.document;
 
